@@ -23,6 +23,19 @@ BuildRequires: cmake(Qt5Widgets)
 BuildRequires: cmake(Qt5Xml)
 BuildRequires: pkgconfig(mlt++)
 BuildRequires: pkgconfig(mlt-framework)
+BuildRequires:	mlt
+BuildRequires:	qt5-linguist-tools
+BuildRequires:	ffmpeg-devel
+BuildRequires:	ladspa-devel
+BuildRequires:	pkgconfig(frei0r)
+BuildRequires:	pkgconfig(Qt5Concurrent)
+BuildRequires:	pkgconfig(Qt5PrintSupport)
+BuildRequires:	pkgconfig(Qt5X11Extras)
+BuildRequires:	pkgconfig(vpx)
+Requires:	frei0r-plugins
+Requires:	ladspa
+Requires:	mlt
+Requires:	qt5-qtquickcontrols
 
 %description
 A video editor
