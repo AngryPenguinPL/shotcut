@@ -32,8 +32,8 @@ BuildRequires:	pkgconfig(Qt5Concurrent)
 BuildRequires:	pkgconfig(Qt5PrintSupport)
 BuildRequires:	pkgconfig(Qt5X11Extras)
 BuildRequires:	pkgconfig(vpx)
-BuildRequires:	pkgconfig(Qt5Quick-private)
-BuildRequires:	pkgconfig(Qt5Qml-private)
+BuildRequires:	qt5quick-private-devel
+BuildRequires:	qt5qml-private-devel
 Requires:	frei0r-plugins
 Requires:	ladspa
 Requires:	mlt
